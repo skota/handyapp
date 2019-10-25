@@ -1,18 +1,23 @@
 # handyapp
 
-TODO: Write a description here
+This is a simple command line app for freeing diskspace by finding and removing unnecessary folders ( ex: node_modules..)
 
 ## Installation
+  coming soon.
 
-TODO: Write installation instructions here
+## Build instructions  
+  - git clone - https://github.com/skota/handyapp
+  - Ensure you have crystal installed. See this [page](https://crystal-lang.org/install/) for instructions
+  - cd to app directory ( ex ~/dev/projects/handyapp)
+  - build: crystal build src/handyapp.cr
+  - next update settings.toml with folders to walk though and sub-folders to delete
 
 ## Usage
 
-TODO: Write usage instructions here
+- Copy the executable to your preferred location. For ex. ~/utils
+- copy settings.toml to ~/utils
+- run the app: ~/utils/handyapp
 
-## Development
-
-TODO: Write development instructions here
 
 ## Contributing
 
@@ -24,4 +29,4 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [your-name-here](https://github.com/your-github-user) - creator and maintainer
+- [Sriram Kota](https://github.com/skota) - creator and maintainer

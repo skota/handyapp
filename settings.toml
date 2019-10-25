@@ -1,8 +1,12 @@
+# these are the source folders to walk though
+#add your own here
 [source]
-source_folder = ["/home/sriramkota/dev/rust_stuff/basic-http-server",
-                "/home/sriramkota/dev/rust_stuff/hello",
-                "/home/sriramkota/dev/react_stuff/poop"]
+source_folder = ["/home/user1/dev/rust_stuff/basic-http-server",
+                "/home/user1/dev/rust_stuff/hello",
+                "/home/user1/dev/react_stuff/poop"]
 
+# inside each folders listed above, look for these sub-folders
+# add your own here
 [cleanup_folders]
 remove_list = ["target/debug","node_modules"]
 
