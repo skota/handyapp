@@ -1,0 +1,8 @@
+[source]
+source_folder = ["/home/sriramkota/dev/rust_stuff/basic-http-server",
+                "/home/sriramkota/dev/rust_stuff/hello",
+                "/home/sriramkota/dev/react_stuff/poop"]
+
+[cleanup_folders]
+remove_list = ["target/debug","node_modules"]
+

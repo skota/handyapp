@@ -1,0 +1,6 @@
+version: 1.0
+shards:
+  toml:
+    github: crystal-community/toml.cr
+    commit: 7a3a6f103dd88871ccc7598be850b517e62dbcfd
+
